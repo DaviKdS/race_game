@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street Rush 3D</title>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div class="hud">
+      <div class="brand">Street Rush</div>
+      <div class="readouts">
+        <div><span id="speed">0</span><small>km/h</small></div>
+        <div><span id="gear">N</span><small>marcha</small></div>
+        <div><span id="score">0</span><small>pts</small></div>
+        <div><span id="nitro">100</span><small>nitro</small></div>
+        <div><span id="wanted">0</span><small>proc.</small></div>
+      </div>
+      <div class="bar"><span id="nitroBar"></span></div>
+    </div>
+    <div class="minimap" aria-hidden="true">
+      <span class="roadline"></span>
+      <span id="miniPlayer" class="mini-player"></span>
+      <span id="miniPolice" class="mini-police"></span>
+    </div>
+    <div class="controls">
+      <span>W/↑ acelera</span>
+      <span>S/↓ freia</span>
+      <span>A/D curva</span>
+      <span>Shift nitro</span>
+      <span>Espaço drift</span>
+      <span>C câmera</span>
+    </div>
+    <div id="message" class="message">
+      <strong>Street Rush</strong>
+      <span>Fuja da polícia, desvie do tráfego e segure Shift para nitro na avenida noturna.</span>
+      <button id="start">Correr</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

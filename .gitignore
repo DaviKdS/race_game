@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/*
+!release/
+!release/StreetRushInstaller.exe
+installer/StreetRushInstaller/StreetRushPayload.zip
+*.png
+.DS_Store
+Thumbs.db
+
+installer/StreetRushInstaller/bin/
+installer/StreetRushInstaller/obj/
